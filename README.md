@@ -15,6 +15,9 @@ How to use Git
 11.    Убедиться, что всё загружено (не торопиться :) )
 12. Информация о последнем коммите * git show (убеждаемся, что всё закоммичено)
             !!!ДЛЯ ВЫХОДА ИЗ ПРОСМОТРА НАЖИМАЕМ Q!!!
+    ( Если нет подключения к удалённому репозиторию: * git remote rm origin
+                                                * git remote add origin https:// github.com/brrrzil/sb-gb-zeus.git
+    )
 
-13. Подключаемся к удалённому репозиторию * git remote add origin https://github.com/myreposname
-14. Отправляем локальный на удалённый * git push -u origin master
+14. Подключаемся к удалённому репозиторию * git remote add origin https://github.com/myreposname
+15. Отправляем локальный на удалённый * git push -u origin master
