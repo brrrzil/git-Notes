@@ -1,14 +1,15 @@
 # git-Notes
 How to use Git
 1. Скачать и установить Гит с git-csm.com
-2. Настроить:   * git config --global user.name "AndreyN"
+2. Запустить Git-Bash
+3. Настроить:   * git config --global user.name "AndreyN"
                 * git config --global user.email "a.ne@mail.ru"
                 * git config --list
-3. * pwd - просмотр текущей папки
-4. Переход к папке с проектом * cd d:/unity/sb...
-5. Просмотр содержимого папки * ls -la
-6. Проверить наличие репозитория в папке * git status
-7. Создать репозиторий * git init
+4. * pwd - просмотр текущей папки
+5. Переход к папке с проектом * cd d:/unity/sb...
+6. Просмотр содержимого папки * ls -la
+7. Проверить наличие репозитория в папке * git status
+8. Создать репозиторий * git init
 8 Дальше работает при закрытом Unity
 9 Добавить файлы в репозиторий: * git add .
 10. * git commit -m 'комментарий'
