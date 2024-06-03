@@ -24,3 +24,7 @@ How to use Git
     1-й вариант: git remote add origin https:// github.com/brrrzil/sb-gb-zeus.git
     2-й вариант: git remote add origin https://github.com/myreposname
 5. git push -u origin master - Отправляем локальный на удалённый
+
+=== Из удалённого репозитория в локальный ===
+1. git clone
+2. git pull
